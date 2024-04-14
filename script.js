@@ -2,11 +2,11 @@ console.log("Script linked successfully!");
 fetch("superheroes.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data); // Logging the data to console for verification
+    console.log(data); 
 
     
     data.forEach((item) => {
-      console.log(item.name); // Displaying the name of each hero
+      console.log(item.name);
     });
 
     function displayHeroes(data) {
@@ -20,6 +20,6 @@ fetch("superheroes.json")
       document.body.innerHTML = html;
     }
 
-    displayHeroes(data); // Displaying data in browser window
+    displayHeroes(data);
   })
   .catch((error) => console.error("Error fetching JSON:", error));
