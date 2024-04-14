@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Superman",
+    "alterEgo": "Clark Kent",
+    "powers": ["Flight", "Super strength", "Heat vision"],
+    "affiliation": "Justice League"
+  },
+  {
+    "id": 2,
+    "name": "Batman",
+    "alterEgo": "Bruce Wayne",
+    "powers": ["Genius-level intellect", "Master martial artist", "Rich"],
+    "affiliation": "Justice League"
+  },
+  {
+    "id": 3,
+    "name": "Wonder Woman",
+    "alterEgo": "Diana Prince",
+    "powers": ["Super strength", "Flight", "Lasso of Truth"],
+    "affiliation": "Justice League"
+  },
+  {
+    "id": 4,
+    "name": "Spider-Man",
+    "alterEgo": "Peter Parker",
+    "powers": ["Wall-crawling", "Spider-sense", "Web-slinging"],
+    "affiliation": "Avengers"
+  },
+  {
+    "id": 5,
+    "name": "Iron Man",
+    "alterEgo": "Tony Stark",
+    "powers": ["Powered armor suit", "Genius-level intellect", "Flight"],
+    "affiliation": "Avengers"
+  }
+]
